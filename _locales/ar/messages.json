@@ -1,0 +1,418 @@
+{
+    "extName": {
+        "message": "Hover Zoom+",
+        "description": "Extension name"
+    },
+    "extShortName": {
+        "message": "HoverZoom",
+        "description": "Short extension name"
+    },
+    "extDescription": {
+        "message": "كبر الصور والفيديوهات في مواقعك المفضلة (فيسبوك , امازون ,..الخ) فقط بالتاشير بالفارة علي الصورة لتكبيرها.",
+        "description": "Extension description in Chrome webstore (max. 132 characters)"
+    },
+    "extUpdated": {
+        "message": "تم تحديث Hover Zoom+",
+        "description": "Extension update notification"
+    },
+    "popDisableForAllSites": {
+        "message": "تعطيل في جميع المواقع",
+        "description": "[popup] Disable the extension"
+    },
+    "popAllowPerSiteToggle": {
+        "message": "السماح بإعدادات معينة لكل موقع",
+        "description": "[popup] Allow per-site extension configuration"
+    },
+    "popDisableForSite": {
+        "message": "تعطيل مقابل $1",
+        "description": "[popup] Disables the extension for a specific site"
+    },
+    "popEnableForSite": {
+        "message": "تشغيل مقابل $1",
+        "description": "[popup] Enables the extension for a specific site"
+    },
+    "popPreloadImages": {
+        "message": "تحميل الصور المكبرة مسبقا",
+        "description": "[popup] Preload zoomed images"
+    },
+    "popPreloadingImages": {
+        "message": "التحميل المسبق...",
+        "description": "[popup] Preloading zoomed images"
+    },
+    "popMoreOptions": {
+        "message": "المزيد من الخيارات",
+        "description": "[popup] More options"
+    },
+    "optTitle": {
+        "message": "اعدادات hoverzoom+",
+        "description": "[options] Page title"
+    },
+    "optButtonSave": {
+        "message": "حفظ",
+        "description": "[options] Save button label"
+    },
+    "optButtonReset": {
+        "message": "اعادة للافتراضي",
+        "description": "[options] Reset button label"
+    },
+    "optSaved": {
+        "message": "تم حفظ الاعدادات. بعض التغييرات قد تحتاج إعادة تحديث الصفحة.",
+        "description": "[options] Notification after saving options"
+    },
+    "optPageGeneral": {
+        "message": "عام",
+        "description": "[options] Page title for general options"
+    },
+    "optExtensionEnabled": {
+        "message": "تشغيل Hover Zoom",
+        "description": "[options] Enable Hover Zoom+ option"
+    },
+    "optSectionView": {
+        "message": "العرض",
+        "description": "[options] Page section for view options"
+    },
+    "optSectionVideo": {
+        "message": "الفيديو",
+        "description": "[options] Page section for video options"
+    },
+    "optZoomFactor": {
+        "message": "تكبير الصور عن طريق هذا العامل:",
+        "description": "[options] Adjust the size of zoomed images option"
+    },
+    "optZoomFactorUnitName": {
+        "message": "المرات",
+        "description": "[options] Unit name (percentage) for zoomed images size option"
+    },
+    "optZoomFactorTooltip": {
+        "message": "تكبير حجم الصور المكبرة بهذا القدر",
+        "description": "[options] Tooltip for adjust the size of zoomed images option"
+    },
+    "optCaptionLocation": {
+        "message": "مكان النص التوضيحي:",
+        "description": "[options] Adjust the position of the caption"
+    },
+    "optCaptionLocationTooltip": {
+        "message": "عرض النص التوضيحي اعلي/ادني الصورة أو لا تظهر على الإطلاق",
+        "description": "[options] Tooltip for adjusting the position of the caption"
+    },
+    "optCaptionLocationAbove": {
+        "message": "أعلي",
+        "description": "[options] Caption location option to put captions above the image"
+    },
+    "optCaptionLocationBelow": {
+        "message": "أدني",
+        "description": "[options] Caption location option to put captions below the image"
+    },
+    "optCaptionLocationNone": {
+        "message": "لا تظهره",
+        "description": "[options] Caption location option to disable captions"
+    },
+    "optMouseUnderlap": {
+        "message": "Étendre les images de zoom sous le pointeur de la souris",
+        "description": "[options] Extend zoomed images below the mouse cursor option"
+    },
+    "optMouseUnderlapTooltip": {
+        "message": "إذا لم تقم بإختيارها, الصور المكبره سيتم تغيير مقاسها تلقائياً",
+        "description": "[options] Tooltip for extend zoomed images below the mouse cursor option"
+    },
+    "optPageActionEnabled": {
+        "message": "إظهار الأيقونة في شريط العنوان",
+        "description": "[options] Show icon in address bar option"
+    },
+    "optPageActionEnabledTooltip": {
+        "message": "فقط عندما يمكن تكبير الصور",
+        "description": "[options] Tooltip for show icon in address bar option"
+    },
+    "optShowWhileLoading": {
+        "message": "إظهر الصور المُكبرة أثناء تحميلها",
+        "description": "[options] Show zoomed pictures while loading option"
+    },
+    "optShowWhileLoadingTooltip": {
+        "message": "الصورة المكبرة ستعرض قبل أن تُحمّل بالكامل",
+        "description": "[options] Tooltip for show zoomed pictures while loading option"
+    },
+    "optShowHighRes": {
+        "message": "إذا أُتيح, أعرض الصور بدقة عالية",
+        "description": "[options] Show high resolution pictures when available option"
+    },
+    "optShowHighResTooltip": {
+        "message": "الصور قد تأخذ وقتاً أكثر للتحميل",
+        "description": "[options] Tooltip for show high resolution pictures when available option"
+    },
+    "optGalleriesMouseWheel": {
+        "message": "استخدم عجلة الماوس للتنقل بين الألبومات",
+        "description": "[options] Use mousewheel to navigate albums option"
+    },
+    "optGalleriesMouseWheelTooltip": {
+        "message": "تصفح الألبوم باستخدام عجلة الماوس",
+        "description": "[options] Tooltip for use mousewheel to navigate albums option"
+    },
+    "optDisableMouseWheelForVideo": {
+        "message": "لا تستخدم عجلة الماوس للتصفح داخل الفيديو ( المفاتيح الأخرى ستظل تعمل)",
+        "description": "[options] Allows you to scroll through albums with the mousewheel but does not change behavior of GFY/Videos"
+    },
+    "optDisableMouseWheelForVideoTooltip": {
+        "message": "التمرير خلال الألبومات ولكن لا تقفز إلى الأمام / الخلف في مقاطع الفيديو",
+        "description": "[options] Allows you to scroll through albums with the mousewheel but does not change behavior of GFY/Videos"
+    },
+    "optZoomVideos": {
+        "message": "تكبير مقاطع الفيديو (WebM ، MP4)",
+        "description": "[options] Zoom videos (WebM, MP4) option"
+    },
+    "optZoomVideosTooltip": {
+        "message": "Zoomer la vidéo (WebM, MP4)",
+        "description": "[options] Tooltip for zoom videos (WebM, MP4) option"
+    },
+    "optVideoPositionStep": {
+        "message": "استخدم مفاتيح الإجراء السابق / التالي (أو عجلة الماوس) لتغيير موضع الفيديو من خلال",
+        "description": "[options] Changing video position amount option"
+    },
+    "optVideoPositionStepUnitName": {
+        "message": "ثانية",
+        "description": "[options] Unit name (seconds) for changing video position option"
+    },
+    "optVideoPositionStepTooltip": {
+        "message": "تخطي الفيديو للخلف أو للخلف لهذا العدد من الثواني",
+        "description": "[options] Tooltip for changing video position option"
+    },
+    "optMuteVideos": {
+        "message": "كتم تكبير مقاطع الفيديو",
+        "description": "[options] Mute zoomed videos option"
+    },
+    "optMuteVideosTooltip": {
+        "message": "تعطيل الصوت في مقاطع الفيديو المكبرة",
+        "description": "[options] Tooltip for mute zoomed videos option"
+    },
+    "optVideoTimestamp": {
+        "message": "عرض الطابع الزمني على مقاطع الفيديو",
+        "description": "[options] Enable timestamp / video length on videos"
+    },
+    "optVideoTimestampTooltip": {
+        "message": "تمكين الطابع الزمني / طول الفيديو على مقاطع الفيديو",
+        "description": "[options] Tooltip for video length countdown on videos"
+    },
+    "optVideoVolume": {
+        "message": "حجم الصوت لمقاطع الفيديو غير المهممة:",
+        "description": "[options] Audio volume for unmuted videos option"
+    },
+    "optVideoVolumeUnitName": {
+        "message": "%",
+        "description": "[options] Unit name (percentage) for video volume option"
+    },
+    "optVideoVolumeTooltip": {
+        "message": "إذا لم يتم كتم الصوت تمامًا ، فاضبط مستوى الصوت على هذه النسبة (0-100)",
+        "description": "[options] Tooltip for audio volume for unmuted videos option"
+    },
+    "optEnableAmbilight": {
+        "message": "تمكين الإضاءة المحيطة خلف الصور",
+        "description": "[options] Enable ambient light behind images option"
+    },
+    "optEnableAmbilightTooltip": {
+        "message": "إنشاء تأثير توهج خفية مماثلة لتكنولوجيا فيليبس Ambilight",
+        "description": "[options] Tooltip for enable ambient light behind images option"
+    },
+    "optCenterImages": {
+        "message": "مركز الصور",
+        "description": "[options] Center images in the middle of the page option"
+    },
+    "optCenterImagesTooltip": {
+        "message": "توسيط الصور بدلاً من جعلها تتبع المؤشر",
+        "description": "[options] Tooltip for center images in the middle of the page option"
+    },
+    "optFrameBackgroundColor": {
+        "message": "لون خلفية الإطار:",
+        "description": "[options] Frame background color option"
+    },
+    "optFrameBackgroundColorTooltip": {
+        "message": "لون الخلفية للإطار الذي تظهر فيه الصورة",
+        "description": "[options] Tooltip for frame background color option"
+    },
+    "optFrameBackgroundColorChooseText": {
+        "message": "حدد الخيار",
+        "description": "[options] Frame background color button - Select"
+    },
+    "optFrameBackgroundColorCancelText": {
+        "message": "إلغاء",
+        "description": "[options] Frame background color button - Cancel"
+    },
+    "optSectionDelays": {
+        "message": "التأخير",
+        "description": "[options] Page section for delay options"
+    },
+    "optDisplayDelay": {
+        "message": "التأخير قبل عرض الصورة:",
+        "description": "[options] Delay before displaying a picture option"
+    },
+    "optDisplayDelayVideo": {
+        "message": "التأخير قبل عرض الفيديو:",
+        "description": "[options] Delay before displaying a video option"
+    },
+    "optFadeDuration": {
+        "message": "يتلاشى مدة الرسوم المتحركة:",
+        "description": "[options] Fading animation duration option"
+    },
+    "optDurationUnitName": {
+        "message": "ثانية",
+        "description": "[options] Short form of \"second\" for delay duration"
+    },
+    "optPagePlugins": {
+        "message": "الإضافات",
+        "description": "[options] Page title for plugin options"
+    },
+    "optPlugins": {
+        "message": "تمكين/إيقاف إضافات محددة",
+        "description": "[options] Section which contains checkboxes for disabling plugins"
+    },
+    "optPageSites": {
+        "message": "مواقع",
+        "description": "[options] Page title for site options"
+    },
+    "optSectionSitesEnabled": {
+        "message": "عناوين URL التي يجب تمكين Hover Zoom +",
+        "description": "[options] Page section for enabling extension for specific sites"
+    },
+    "optSectionSitesDisabled": {
+        "message": "عناوين URL التي يجب تعطيل Hover Zoom +",
+        "description": "[options] Page section for enabling extension for specific sites"
+    },
+    "optWhitelistMode": {
+        "message": "وضع القائمة البيضاء",
+        "description": "[options] Whitelist mode checkbox"
+    },
+    "optWhitelistModeTooltip": {
+        "message": "قم بتمكين Hover Zoom + فقط للمواقع المدرجة أدناه",
+        "description": "[options] Tooltip for whitelist mode checkbox"
+    },
+    "optSitePlaceholder": {
+        "message": "أمثلة: facebook.com ، google.com/reader",
+        "description": "[options] Placeholder for a site url input box"
+    },
+    "optSiteDisclaimer": {
+        "message": "أن تدرك أن مرشحات المجال يمكن أن تتداخل. مثال: إذا كنت قد قمت بتصفية \"picasaweb.google.com\" و \"google.com\" ، فلن تؤدي إزالة \"picasaweb.google.com\" إلى إعادة تنشيط ألبومات الويب بيكاسا ، حيث سيظل مستبعدًا من قِبل مرشح \"google.com\".",
+        "description": "[options] Disclaimer on the sites option page"
+    },
+    "optButtonAddSite": {
+        "message": "إضافة",
+        "description": "[options] Button for adding a site on sites option page"
+    },
+    "optPageActionKeys": {
+        "message": "مفاتيح العمل",
+        "description": "[options] Page title for action key options"
+    },
+    "optPageAdvanced": {
+        "message": "المتقدمة",
+        "description": "[options] Page title for advanced options"
+    },
+    "optSectionAdvanced": {
+        "message": "خيارات متقدمة",
+        "description": "[options] Page section for advanced options"
+    },
+    "optUpdateNotifications": {
+        "message": "عرض إشعارات التحديث",
+        "description": "[options] Show update notifications option"
+    },
+    "optShowLastUpdateNotification": {
+        "message": "(عرض الإخطار الأخير)",
+        "description": "[options] Show last update notification"
+    },
+    "optAddToHistory": {
+        "message": "أضف الصور التي تم عرضها إلى سجل المتصفح",
+        "description": "[options] Add viewed pictures to the browser's history option"
+    },
+    "optFilterNSFW": {
+        "message": "استبعاد صور NSFW (Reddit فقط)",
+        "description": "[options] Exclude NSFW images (Reddit only) option"
+    },
+    "optAlwaysPreload": {
+        "message": "التحميل المسبق تلقائيًا لتكبير الصور",
+        "description": "[options] Automatically preload zoomed images option"
+    },
+    "optEnableGalleries": {
+        "message": "تمكين دعم الألبومات",
+        "description": "[options] Enable albums support option"
+    },
+    "optPicturesOpacity": {
+        "message": "تكبير عتامة الصور:",
+        "description": "[options] Zoomed pictures opacity option"
+    },
+    "optOpacityUnitName": {
+        "message": "%",
+        "description": "[options] Unit name (percentage) for opacity option"
+    },
+    "optActionKeyTitle": {
+        "message": "تنشيط Hover Zoom+",
+        "description": "[options] Action key title"
+    },
+    "optActionKeyDescription": {
+        "message": "إذا تم تعيين مفتاح ما ، فسيكون Hover Zoom + نشطًا فقط عند الضغط على هذا المفتاح.",
+        "description": "[options] Action key description"
+    },
+    "optHideKeyTitle": {
+        "message": "تعطيل Hover Zoom+",
+        "description": "[options] Action key title"
+    },
+    "optHideKeyDescription": {
+        "message": "الضغط على هذا المفتاح لأسفل يخفي الصورة المكبرة. استخدمها عندما تخفي الصورة العناصر التي يتم عرضها أيضًا على الماوس.",
+        "description": "[options] Action key description"
+    },
+    "optOpenImageInWindowKeyTitle": {
+        "message": "افتح الصورة في نافذة جديدة",
+        "description": "[options] Action key title"
+    },
+    "optOpenImageInWindowKeyDescription": {
+        "message": "اضغط على هذا المفتاح لفتح الصورة التي تعرضها حاليًا في نافذة جديدة. اضغط على هذا المفتاح مرة أخرى لإغلاق النافذة.",
+        "description": "[options] Action key description"
+    },
+    "optOpenImageInTabKeyTitle": {
+        "message": "افتح الصورة في علامة تبويب جديدة",
+        "description": "[options] Action key title"
+    },
+    "optOpenImageInTabKeyDescription": {
+        "message": "اضغط على هذا المفتاح لفتح الصورة التي تعرضها حاليًا في علامة تبويب جديدة. اضغط على هذا المفتاح مرة أخرى لإغلاق علامة التبويب. المفتاح Shift + يفتح الصورة في علامة تبويب الخلفية.",
+        "description": "[options] Action key description"
+    },
+    "optSaveImageKeyTitle": {
+        "message": "احفظ الصورة",
+        "description": "[options] Action key title"
+    },
+    "optSaveImageKeyDescription": {
+        "message": "اضغط على هذا المفتاح لحفظ الصورة التي تعرضها حاليًا.",
+        "description": "[options] Action key description"
+    },
+    "optFullZoomKeyTitle": {
+        "message": "Activer le zoom complet",
+        "description": "[options] Action key title"
+    },
+    "optFullZoomKeyDescription": {
+        "message": "عند الضغط على هذا المفتاح ، يتم عرض الصورة باستخدام كل المساحة المتاحة. مفيدة للصور عالية الدقة فقط.",
+        "description": "[options] Action key description"
+    },
+    "optPrevImgKeyTitle": {
+        "message": "عرض الصورة السابقة في معرض",
+        "description": "[options] Action key title"
+    },
+    "optPrevImgKeyDescription": {
+        "message": "اضغط على هذا المفتاح لعرض الصورة السابقة في المعرض.",
+        "description": "[options] Action key description"
+    },
+    "optNextImgKeyTitle": {
+        "message": "عرض الصورة التالية في معرض",
+        "description": "[options] Action key title"
+    },
+    "optNextImgKeyDescription": {
+        "message": "اضغط على هذا المفتاح لعرض الصورة التالية في معرض.",
+        "description": "[options] Action key description"
+    },
+    "optFooterSourceCode": {
+        "message": "الكود المصدري",
+        "description": "[options] Source code link in page footer"
+    },
+    "optFooterReportIssue": {
+        "message": "الإبلاغ عن خطأ",
+        "description": "[options] Report a bug link in page footer"
+    },
+    "optFooterVersionCopyright": {
+        "message": "الإصدار $1 - © 2014-2020 Oleg Anashkin",
+        "description": "[options] Copyright and version number in page footer"
+    }
+}

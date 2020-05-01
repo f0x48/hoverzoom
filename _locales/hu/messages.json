@@ -1,0 +1,418 @@
+{
+    "extName": {
+        "message": "Hover Zoom+",
+        "description": "Extension name"
+    },
+    "extShortName": {
+        "message": "HoverZoom",
+        "description": "Short extension name"
+    },
+    "extDescription": {
+        "message": "Viedók és képek nagyítása a kedvenc weboldalaidon (Facebook, Amazon stb.). Csak mutass az egérmutatóval a képre hogy felnagyítsd.",
+        "description": "Extension description in Chrome webstore (max. 132 characters)"
+    },
+    "extUpdated": {
+        "message": "A Hover Zoom frissült",
+        "description": "Extension update notification"
+    },
+    "popDisableForAllSites": {
+        "message": "Letiltás az összes oldalon",
+        "description": "[popup] Disable the extension"
+    },
+    "popAllowPerSiteToggle": {
+        "message": "Engedélyezze a külön konfigurálást minden webhelyhez",
+        "description": "[popup] Allow per-site extension configuration"
+    },
+    "popDisableForSite": {
+        "message": "Letiltás itt: $1",
+        "description": "[popup] Disables the extension for a specific site"
+    },
+    "popEnableForSite": {
+        "message": "Engedélyezés itt: $1",
+        "description": "[popup] Enables the extension for a specific site"
+    },
+    "popPreloadImages": {
+        "message": "Nagyított oldalak előtöltése",
+        "description": "[popup] Preload zoomed images"
+    },
+    "popPreloadingImages": {
+        "message": "Előtöltés...",
+        "description": "[popup] Preloading zoomed images"
+    },
+    "popMoreOptions": {
+        "message": "További beállítások",
+        "description": "[popup] More options"
+    },
+    "optTitle": {
+        "message": "Hover Zoom+ opciók",
+        "description": "[options] Page title"
+    },
+    "optButtonSave": {
+        "message": "Mentés",
+        "description": "[options] Save button label"
+    },
+    "optButtonReset": {
+        "message": "Alaphelyzet",
+        "description": "[options] Reset button label"
+    },
+    "optSaved": {
+        "message": "A beállítások el lettek mentve, néhány alkalmazásához újra kell tölteni az oldalt.",
+        "description": "[options] Notification after saving options"
+    },
+    "optPageGeneral": {
+        "message": "Általános",
+        "description": "[options] Page title for general options"
+    },
+    "optExtensionEnabled": {
+        "message": "Hover Zoom engedélyezése",
+        "description": "[options] Enable Hover Zoom+ option"
+    },
+    "optSectionView": {
+        "message": "Nézet",
+        "description": "[options] Page section for view options"
+    },
+    "optSectionVideo": {
+        "message": "Videó",
+        "description": "[options] Page section for video options"
+    },
+    "optZoomFactor": {
+        "message": "Nagyított képek nagyítása ennyiszer:",
+        "description": "[options] Adjust the size of zoomed images option"
+    },
+    "optZoomFactorUnitName": {
+        "message": "szor/szer",
+        "description": "[options] Unit name (percentage) for zoomed images size option"
+    },
+    "optZoomFactorTooltip": {
+        "message": "A nagyított képek méretének megnövelése e érték alapján",
+        "description": "[options] Tooltip for adjust the size of zoomed images option"
+    },
+    "optCaptionLocation": {
+        "message": "Felirat pozíciója:",
+        "description": "[options] Adjust the position of the caption"
+    },
+    "optCaptionLocationTooltip": {
+        "message": "A felirat megjelenítése a kép fölött/alatt, vagy elrejtése",
+        "description": "[options] Tooltip for adjusting the position of the caption"
+    },
+    "optCaptionLocationAbove": {
+        "message": "Fölötte",
+        "description": "[options] Caption location option to put captions above the image"
+    },
+    "optCaptionLocationBelow": {
+        "message": "Alatta",
+        "description": "[options] Caption location option to put captions below the image"
+    },
+    "optCaptionLocationNone": {
+        "message": "Sehol",
+        "description": "[options] Caption location option to disable captions"
+    },
+    "optMouseUnderlap": {
+        "message": "Nagyított képek meghosszabbítása a kurzor alatt",
+        "description": "[options] Extend zoomed images below the mouse cursor option"
+    },
+    "optMouseUnderlapTooltip": {
+        "message": "Ha nincs bejelölve, a nagyított képek dinamikusan lesznek méretezve",
+        "description": "[options] Tooltip for extend zoomed images below the mouse cursor option"
+    },
+    "optPageActionEnabled": {
+        "message": "Ikon megjelenítése a címsorban",
+        "description": "[options] Show icon in address bar option"
+    },
+    "optPageActionEnabledTooltip": {
+        "message": "Csak akkor, ha a képeket fel lehet nagyítani",
+        "description": "[options] Tooltip for show icon in address bar option"
+    },
+    "optShowWhileLoading": {
+        "message": "Nagyított képek mutatása töltés közben",
+        "description": "[options] Show zoomed pictures while loading option"
+    },
+    "optShowWhileLoadingTooltip": {
+        "message": "A nagyított kép meg fog jelenni mielőtt teljesen be lett töltve",
+        "description": "[options] Tooltip for show zoomed pictures while loading option"
+    },
+    "optShowHighRes": {
+        "message": "Nagy felbontású képek megjelenítése, ha elérhetőek",
+        "description": "[options] Show high resolution pictures when available option"
+    },
+    "optShowHighResTooltip": {
+        "message": "A képek betöltése lehet, hogy több időt fog tartani",
+        "description": "[options] Tooltip for show high resolution pictures when available option"
+    },
+    "optGalleriesMouseWheel": {
+        "message": "Használja a görgőt az albumok közötti váltáshoz",
+        "description": "[options] Use mousewheel to navigate albums option"
+    },
+    "optGalleriesMouseWheelTooltip": {
+        "message": "Albumok közötti navigálás az egér kerekével",
+        "description": "[options] Tooltip for use mousewheel to navigate albums option"
+    },
+    "optDisableMouseWheelForVideo": {
+        "message": "Ne használja a görgőt a navigáláshoz a videóban (a billentyúk továbbra is működnek)",
+        "description": "[options] Allows you to scroll through albums with the mousewheel but does not change behavior of GFY/Videos"
+    },
+    "optDisableMouseWheelForVideoTooltip": {
+        "message": "Navigáljon az albumok között de ne lépjen oda/vissza a videókban",
+        "description": "[options] Allows you to scroll through albums with the mousewheel but does not change behavior of GFY/Videos"
+    },
+    "optZoomVideos": {
+        "message": "Videók nagyítása (WebM, MP4)",
+        "description": "[options] Zoom videos (WebM, MP4) option"
+    },
+    "optZoomVideosTooltip": {
+        "message": "Videók nagyítása (WebM, MP4)",
+        "description": "[options] Tooltip for zoom videos (WebM, MP4) option"
+    },
+    "optVideoPositionStep": {
+        "message": "Használja az előző/következő billentyűket (vagy a görgőt) hogy változtassa a videó helyzetét ennyivel:",
+        "description": "[options] Changing video position amount option"
+    },
+    "optVideoPositionStepUnitName": {
+        "message": "másodperc",
+        "description": "[options] Unit name (seconds) for changing video position option"
+    },
+    "optVideoPositionStepTooltip": {
+        "message": "A videó átugrása vissza / előre ennyi másodperccel:",
+        "description": "[options] Tooltip for changing video position option"
+    },
+    "optMuteVideos": {
+        "message": "Nagyított videók némítása",
+        "description": "[options] Mute zoomed videos option"
+    },
+    "optMuteVideosTooltip": {
+        "message": "Tiltsa le a hangot a nagyított videókban",
+        "description": "[options] Tooltip for mute zoomed videos option"
+    },
+    "optVideoTimestamp": {
+        "message": "Idő megjelenítése a nagyított videókon",
+        "description": "[options] Enable timestamp / video length on videos"
+    },
+    "optVideoTimestampTooltip": {
+        "message": "Engedélyezze az időbélyeg / hossz megjelenítését a videókon",
+        "description": "[options] Tooltip for video length countdown on videos"
+    },
+    "optVideoVolume": {
+        "message": "Hangerő a nem némított videókhoz:",
+        "description": "[options] Audio volume for unmuted videos option"
+    },
+    "optVideoVolumeUnitName": {
+        "message": "%",
+        "description": "[options] Unit name (percentage) for video volume option"
+    },
+    "optVideoVolumeTooltip": {
+        "message": "Ha a videó nincs teljesen némítva, a hangerő ennyi százalék hangos legyen (0-100)",
+        "description": "[options] Tooltip for audio volume for unmuted videos option"
+    },
+    "optEnableAmbilight": {
+        "message": "Képek mögötti háttérvilágítás engedélyezése",
+        "description": "[options] Enable ambient light behind images option"
+    },
+    "optEnableAmbilightTooltip": {
+        "message": "Hozzon létre egy finom fényhatást, mint a Philips Ambient Technológiá-ban",
+        "description": "[options] Tooltip for enable ambient light behind images option"
+    },
+    "optCenterImages": {
+        "message": "Képek elhelyezése az oldal közepén",
+        "description": "[options] Center images in the middle of the page option"
+    },
+    "optCenterImagesTooltip": {
+        "message": "A képek középre helyezése ahelyet, hogy követnék a kurzort",
+        "description": "[options] Tooltip for center images in the middle of the page option"
+    },
+    "optFrameBackgroundColor": {
+        "message": "Keret háttérszíne:",
+        "description": "[options] Frame background color option"
+    },
+    "optFrameBackgroundColorTooltip": {
+        "message": "Háttérszín a kerethez amiben megjelenik a kép",
+        "description": "[options] Tooltip for frame background color option"
+    },
+    "optFrameBackgroundColorChooseText": {
+        "message": "Kiválasztás",
+        "description": "[options] Frame background color button - Select"
+    },
+    "optFrameBackgroundColorCancelText": {
+        "message": "Mégse",
+        "description": "[options] Frame background color button - Cancel"
+    },
+    "optSectionDelays": {
+        "message": "Késleltetések",
+        "description": "[options] Page section for delay options"
+    },
+    "optDisplayDelay": {
+        "message": "Késleltetés a kép megjelenítése előtt:",
+        "description": "[options] Delay before displaying a picture option"
+    },
+    "optDisplayDelayVideo": {
+        "message": "Késleltetés videó megjelenítése előtt:",
+        "description": "[options] Delay before displaying a video option"
+    },
+    "optFadeDuration": {
+        "message": "Halványodó animáció időtartama:",
+        "description": "[options] Fading animation duration option"
+    },
+    "optDurationUnitName": {
+        "message": "másodperc",
+        "description": "[options] Short form of \"second\" for delay duration"
+    },
+    "optPagePlugins": {
+        "message": "Kiegészítők",
+        "description": "[options] Page title for plugin options"
+    },
+    "optPlugins": {
+        "message": "Adott bővítmények engedélyezése/letiltása",
+        "description": "[options] Section which contains checkboxes for disabling plugins"
+    },
+    "optPageSites": {
+        "message": "Weboldalak",
+        "description": "[options] Page title for site options"
+    },
+    "optSectionSitesEnabled": {
+        "message": "Oldalak, ahol a Hover Zoom+ bekapcsolva kell legyen",
+        "description": "[options] Page section for enabling extension for specific sites"
+    },
+    "optSectionSitesDisabled": {
+        "message": "Oldalak, ahol a Hover Zoom+ kikapcsolva kell legyen",
+        "description": "[options] Page section for enabling extension for specific sites"
+    },
+    "optWhitelistMode": {
+        "message": "Fehérlista mód",
+        "description": "[options] Whitelist mode checkbox"
+    },
+    "optWhitelistModeTooltip": {
+        "message": "A Hover Zoom+ csak ezeken az oldalakon legyen engedélyezve",
+        "description": "[options] Tooltip for whitelist mode checkbox"
+    },
+    "optSitePlaceholder": {
+        "message": "Példák: facebook.com, google.com/reader",
+        "description": "[options] Placeholder for a site url input box"
+    },
+    "optSiteDisclaimer": {
+        "message": "Légy tudatában annak, hogy a domain szűrők átfedhetik egymást. Például ha megadtad a 'picasaweb.google.com' és a 'google.com' weboldalakat, a 'picasaweb.google.com' webhely eltávolítása nem fogja újra aktiválni a Picasa Web Albumokat, mert még mindig ki van zárva a 'google.com' szűrő által.",
+        "description": "[options] Disclaimer on the sites option page"
+    },
+    "optButtonAddSite": {
+        "message": "Hozzáadás",
+        "description": "[options] Button for adding a site on sites option page"
+    },
+    "optPageActionKeys": {
+        "message": "Billentyűk",
+        "description": "[options] Page title for action key options"
+    },
+    "optPageAdvanced": {
+        "message": "Haladó",
+        "description": "[options] Page title for advanced options"
+    },
+    "optSectionAdvanced": {
+        "message": "Haladó beállítások",
+        "description": "[options] Page section for advanced options"
+    },
+    "optUpdateNotifications": {
+        "message": "Frissítési értesítések",
+        "description": "[options] Show update notifications option"
+    },
+    "optShowLastUpdateNotification": {
+        "message": "(legutóbbi értesítés megjelenítése)",
+        "description": "[options] Show last update notification"
+    },
+    "optAddToHistory": {
+        "message": "Megtekintett képek hozzáadása a böngészési előzményekhez",
+        "description": "[options] Add viewed pictures to the browser's history option"
+    },
+    "optFilterNSFW": {
+        "message": "NSFW képek kizárása (csak a Redditben)",
+        "description": "[options] Exclude NSFW images (Reddit only) option"
+    },
+    "optAlwaysPreload": {
+        "message": "Nagyított képek automatikus előtöltése",
+        "description": "[options] Automatically preload zoomed images option"
+    },
+    "optEnableGalleries": {
+        "message": "Albumok támogatásának engedélyezése",
+        "description": "[options] Enable albums support option"
+    },
+    "optPicturesOpacity": {
+        "message": "Nagyított képek átlátszatlansága:",
+        "description": "[options] Zoomed pictures opacity option"
+    },
+    "optOpacityUnitName": {
+        "message": "%",
+        "description": "[options] Unit name (percentage) for opacity option"
+    },
+    "optActionKeyTitle": {
+        "message": "Hover Zoom+ aktiválása",
+        "description": "[options] Action key title"
+    },
+    "optActionKeyDescription": {
+        "message": "Ha egy billentyű be van állítva, Hover Zoom+ csak akkor lesz aktív ha a kiválasztott billentyű nyomvatartva van.",
+        "description": "[options] Action key description"
+    },
+    "optHideKeyTitle": {
+        "message": "Hover Zoom+ aktiválása",
+        "description": "[options] Action key title"
+    },
+    "optHideKeyDescription": {
+        "message": "A billentyű nyomva tartása elrejti a képet. Akkor használd, ha a nagyított kép elrejt olyan elemeket, amelyek csak akkor jelennek meg, ha az egérmutató a képen van.",
+        "description": "[options] Action key description"
+    },
+    "optOpenImageInWindowKeyTitle": {
+        "message": "A kép megnyitása új ablakban",
+        "description": "[options] Action key title"
+    },
+    "optOpenImageInWindowKeyDescription": {
+        "message": "Nyomd meg ezt a billentyűt hogy a kép jelenjen meg egy új ablakban. Nyomd meg megint hogy bezáródjon az ablak.",
+        "description": "[options] Action key description"
+    },
+    "optOpenImageInTabKeyTitle": {
+        "message": "Kép megnyitása új lapon",
+        "description": "[options] Action key title"
+    },
+    "optOpenImageInTabKeyDescription": {
+        "message": "Nyomd meg ezt a billentyűt hogy a kép jelenjen meg egy új lapon. Nyomd meg megint hogy bezáródjon a lap. A Shift+billentyű egy háttérlapon nyitja meg a képet.",
+        "description": "[options] Action key description"
+    },
+    "optSaveImageKeyTitle": {
+        "message": "Kép mentése",
+        "description": "[options] Action key title"
+    },
+    "optSaveImageKeyDescription": {
+        "message": "Nyomd meg ezt a billentyűt hogy mentsd a képet amit nézel.",
+        "description": "[options] Action key description"
+    },
+    "optFullZoomKeyTitle": {
+        "message": "Teljes zoom aktiválása",
+        "description": "[options] Action key title"
+    },
+    "optFullZoomKeyDescription": {
+        "message": "Ha ez a billentyű nyomvatartva van, a kép ki fogja tölteni az összes rendelkezésre álló teret. Csak nagy felbontású képeknél hasznos.",
+        "description": "[options] Action key description"
+    },
+    "optPrevImgKeyTitle": {
+        "message": "Előző kép megjelenízése a galériában",
+        "description": "[options] Action key title"
+    },
+    "optPrevImgKeyDescription": {
+        "message": "Nyomd meg ezt a gombot az előző kép galériában való megtekintéséhez.",
+        "description": "[options] Action key description"
+    },
+    "optNextImgKeyTitle": {
+        "message": "Következő kép megjelenítése a galériában",
+        "description": "[options] Action key title"
+    },
+    "optNextImgKeyDescription": {
+        "message": "Nyomd meg ezt a gombot a következő kép galériában való megjelenítéséhez.",
+        "description": "[options] Action key description"
+    },
+    "optFooterSourceCode": {
+        "message": "Forráskód",
+        "description": "[options] Source code link in page footer"
+    },
+    "optFooterReportIssue": {
+        "message": "Hiba jelentése",
+        "description": "[options] Report a bug link in page footer"
+    },
+    "optFooterVersionCopyright": {
+        "message": "Verzió $1 - © 2014-2020 Oleg Anashkin",
+        "description": "[options] Copyright and version number in page footer"
+    }
+}
