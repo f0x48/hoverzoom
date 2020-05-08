@@ -3,7 +3,7 @@
     "short_name": "__MSG_extShortName__",
     "version": "1.0.143",
     "description": "__MSG_extDescription__",
-    "homepage_url": "https://github.com/extesy/hoverzoom/",
+    "homepage_url": "https://github.com/fhadiel/hoverzoom",
     "author": "Oleg Anashkin",
     "manifest_version": 2,
     "icons": {
